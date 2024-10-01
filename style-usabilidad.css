@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #549ca7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #c3c7c8;
+    overflow: hidden;
+    color: white; 
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+h1{
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    color: #0a0a0a;
+    font-family: Arial, sans-serif;
+    
+}
+
+h5{
+    color: #fff;
+    size:  0.5rem;
+}
+
+p{
+    font-size: large;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 90px 0; 
+    height: 100%;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 90px 0; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe el ancho del contenedor */
+    height: 100%; /* Forza la imagen a ocupar la altura del contenedor */
+    object-fit: cover; /* Recorta la imagen para que ocupe el espacio */
+    border-radius: 1%;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #549ca7;
+    color: white;
+}
+
+blockquote {
+    border-left: 4px solid #549ca7;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.footer-final {
+    background-color: #549ca7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.btn-volver {
+    background-color: #549ca7;
+            color: white;
+            border: none; 
+            border-radius: 0.25rem; 
+            padding: 10px 20px;
+            text-align: center; 
+            display: inline-block; 
+            font-size: 1rem;
+            transition: background-color 0.3s ease; 
+            text-decoration: none; 
+}
