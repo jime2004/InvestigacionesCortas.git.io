@@ -85,9 +85,9 @@ section {
 }
 
 .carousel-item img {
-    width: 100%; /* Asegura que la imagen ocupe el ancho del contenedor */
-    height: 100%; /* Forza la imagen a ocupar la altura del contenedor */
-    object-fit: cover; /* Recorta la imagen para que ocupe el espacio */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
     border-radius: 1%;
 }
 
