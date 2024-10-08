@@ -334,43 +334,6 @@ footer h2:after {
     display: block
 }
 
-@media screen and (min-width:1200px) {
-    p,
-    ul,
-    ol {
-        font-size: calc(var(--font-size) * 1.3rem);
-        line-height: 1.9;
-        letter-spacing: .2px;
-        word-spacing: .25px
-    }
-    .hero-text p {
-        font-size: calc(var(--font-size) * 1.9rem)
-    }
-    h1 {
-        font-size: calc(var(--font-size) * 3.0rem)
-    }
-    h2 {
-        font-size: calc(var(--font-size) * 2rem)
-    }
-    h3 {
-        font-size: calc(var(--font-size) * 1.75rem);
-        margin: 0
-    }
-    footer h2 {
-        font-size: calc(var(--font-size) * 1.4rem);
-        margin: 20px 0
-    }
-    .precio {
-        font-size: calc(var(--font-size) * 3.1rem)
-    }
-    .desktop {
-        display: block
-    }
-    .mobile {
-        display: none
-    }
-}
-
 .responsive2,
 .responsive3 {
     display: none
@@ -433,5 +396,136 @@ footer {
     padding-bottom: 36px;
     box-sizing: border-box;
     line-height: 1.8
+}
+
+@media screen and (min-width:1200px) {
+    p,
+    ul,
+    ol {
+        font-size: calc(var(--font-size) * 1.3rem);
+        line-height: 1.9;
+        letter-spacing: .2px;
+        word-spacing: .25px
+    }
+    .hero-text p {
+        font-size: calc(var(--font-size) * 1.9rem)
+    }
+    h1 {
+        font-size: calc(var(--font-size) * 3.0rem)
+    }
+    h2 {
+        font-size: calc(var(--font-size) * 2rem)
+    }
+    h3 {
+        font-size: calc(var(--font-size) * 1.75rem);
+        margin: 0
+    }
+    footer h2 {
+        font-size: calc(var(--font-size) * 1.4rem);
+        margin: 20px 0
+    }
+    .precio {
+        font-size: calc(var(--font-size) * 3.1rem)
+    }
+    .desktop {
+        display: block
+    }
+    .mobile {
+        display: none
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+    .sections {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .service3 {
+        width: 80%;
+        margin: 25px 0
+    }
+    .hero-imagen {
+        margin-left: 0;
+        padding: 0
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .header2 {
+        height: 650px
+    }
+}
+
+@media screen and (max-width:960px) {
+    .description,
+    .description2 {
+        width: 90%;
+        margin: auto
+    }
+}
+
+@media screen and (max-width:780px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center
+    }
+    .hero2 {
+        justify-content: center
+    }
+    .hero-imagen {
+        max-width: 320px;
+        max-height: 320px;
+        margin-left: 0;
+        padding: 0 4px 32px 0
+    }
+    .hero-text {
+        padding: 0 16px
+    }
+    .header2 {
+        background-image: url(imagenes/restaurante2.webp)
+    }
+    .header {
+        background-image: linear-gradient(180deg, rgba(19, 25, 43, 1) 30%, rgba(0, 79, 121, 1) 60%, rgba(113, 159, 193, 1) 80%);
+        background-color: var(--color-theme1);
+        height: 650px
+    }
+    .description,
+    .description2 {
+        width: 100%;
+        margin: auto
+    }
+    .sections {
+        width: 100%;
+        padding: 24px 24px
+    }
+    .service,
+    .services,
+    .services2 {
+        padding: 0
+    }
+    .service3,
+    .servicef,
+    .footer {
+        width: 100%
+    }
+    .service5,
+    .service4 {
+        margin: 16px 0
+    }
+    .footer {
+        padding-bottom: 20px
+    }
+}
+
+@media screen and (max-width:720px) {
+    .responsive2 {
+        display: none
+    }
+    .responsive3 {
+        display: inherit
+    }
 }
 
